@@ -60,7 +60,7 @@ class Eleicao
         @candidato.each { |can| # variável onde ficará armazenado o candidato
         
             #verifica se o número digitado é mesmo do candidato 
-            if can.num == num then
+            if can.num == num 
                 puts "Obrigado por votar!"
                 
                 #conta os votos
